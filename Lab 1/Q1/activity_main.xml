@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   android:padding="16dp">
+
+
+   <TextView
+       android:id="@+id/textView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Demo Text"
+       android:textSize="18sp"
+       android:padding="8dp"
+       android:justificationMode="inter_word"/>
+
+
+   <Button
+       android:id="@+id/redBtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Make Text Red"
+       android:onClick="makeRed"/>
+
+
+   <Button
+       android:id="@+id/blueBtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Make Text Blue"
+       android:onClick="makeBlue"/>
+
+
+   <Button
+       android:id="@+id/boldBtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Bold Text"
+       android:onClick="makeBold"/>
+
+
+   <Button
+       android:id="@+id/italicBtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Italic Text"
+       android:onClick="makeItalic"/>
+
+
+   <Button
+       android:id="@+id/increaseSizeBtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Increase Text Size"
+       android:onClick="increaseSize"/>
+
+
+</LinearLayout>
+
+
