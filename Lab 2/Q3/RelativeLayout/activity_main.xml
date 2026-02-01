@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="#111111"
+   >
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Hello Relative Layout"
+       android:background="#69767474"
+       android:textColor="@color/white"
+       />
+
+
+   <TextView
+       android:id="@+id/label"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Type here:"
+       android:textColor="#FFFFFF"
+       android:paddingLeft="16dp"
+       android:layout_marginTop="25dp"/>
+
+
+   <EditText
+       android:id="@+id/inputBox"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/label"
+       android:layout_marginTop="8dp"
+
+
+       android:background="@drawable/input_border"/>
+
+
+   <Button
+       android:id="@+id/cancelBtn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/inputBox"
+       android:layout_alignParentEnd="true"
+       android:layout_marginTop="14dp"
+       android:layout_marginEnd="121dp"
+       android:background="@drawable/flat_button"
+       android:text="Cancel"
+       android:textColor="@color/black" />
+
+
+   <Button
+       android:id="@+id/okBtn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="OK"
+       android:background="@drawable/flat_button"
+       android:textColor="@color/black"
+       android:layout_below="@id/inputBox"
+       android:layout_alignParentEnd="true"
+       android:layout_marginTop="12dp"
+      />
+
+
+</RelativeLayout>
