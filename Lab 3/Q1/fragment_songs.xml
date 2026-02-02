@@ -1,0 +1,37 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="#111111"
+   android:stretchColumns="*"
+   android:padding="10dp">
+
+
+   <TableRow>
+       <TextView android:text="Open..." android:textColor="#FFFFFF"/>
+       <TextView android:text="Ctrl+O" android:textColor="#AAAAAA"/>
+   </TableRow>
+
+
+   <TableRow>
+       <TextView android:text="Save..." android:textColor="#FFFFFF"/>
+       <TextView android:text="Ctrl+S" android:textColor="#AAAAAA"/>
+   </TableRow>
+
+
+   <TableRow>
+       <TextView android:text="Import..." android:textColor="#FFFFFF"/>
+       <TextView android:text="Ctrl+I" android:textColor="#AAAAAA"/>
+   </TableRow>
+
+
+   <TableRow>
+       <TextView android:text="Export..." android:textColor="#FFFFFF"/>
+       <TextView android:text="Ctrl+E" android:textColor="#AAAAAA"/>
+   </TableRow>
+
+
+   <TableRow>
+       <TextView android:text="Quit" android:textColor="#FFFFFF"/>
+       <TextView android:text="Ctrl+Q" android:textColor="#AAAAAA"/>
+   </TableRow>
+</TableLayout>
